@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body {
+  background: #000 url('./services/stars.png')no-repeat;
+  background-size: cover;
+  -webkit-fonnt-smoothing: antialiased !important;
+
+}
+
+.container{
+  margin: 80px auto 0;
+  max-width: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 550px;
+  border: 6px solid rgb(31, 30, 30);
+  box-shadow: 0px 0px 10px yellow;
+}
+
+.content button.btn{
+  border: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  margin: 15px auto;
+  justify-content: end;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: black;
+  box-shadow: 0px 0px 8px #606060;
+  color: #FFF;
+}
+
+.content table{
+  border: 3px solid rgb(0, 0, 0);
+  font-family: 'Sriracha', cursive;
+  font-size: 18pt;
+  border-spacing: 0px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 10px white;
+  background: rgb(243, 239, 231);
+ 
+  
+}
+
+.content th{
+  border-bottom: 3px solid rgb(0, 0, 0);
+  padding: 2px 0px 0;
+
+}
+.content td{
+  padding: 4px;
+  white-space: initial;
+}
+
+.content td.fnf{
+padding: 2px 0px 0;
+}
